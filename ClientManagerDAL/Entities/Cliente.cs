@@ -10,6 +10,6 @@ namespace ClientManagerDAL.Entities
         public string Correo { get; set; }
         public string Telefono { get; set; }
 
-        public DateTime FechaRegistro { get; set; } // CAMPO DE BASE DE DATOS
+        public DateTime FechaRegistro { get; set; } 
     }
 }

@@ -14,20 +14,20 @@ namespace ClienteManager.Controllers
             _clienteServicio = clienteServicio;
         }
 
-        // Index sayfası
+        
         public IActionResult Index()
         {
             return View();
         }
 
-        // Tüm müşterileri getir (DataTable uyumlu)
+       
         public async Task<IActionResult> ObtenerClientes()
         {
             var response = await _clienteServicio.ObtenerClientesAsync();
-            return Json(new { data = response.Data }); // DataTable için gerekli format
+            return Json(new { data = response.Data }); 
         }
 
-        // Müşteri ekle
+        
         [HttpPost]
         public async Task<IActionResult> AgregarCliente(ClienteDto clienteDto)
         {
@@ -35,7 +35,7 @@ namespace ClienteManager.Controllers
             return Json(response);
         }
 
-        // Müşteri güncelle
+        
         [HttpPost]
         public async Task<IActionResult> ActualizarCliente(ClienteDto clienteDto)
         {
@@ -43,7 +43,7 @@ namespace ClienteManager.Controllers
             return Json(response);
         }
 
-        // Müşteri sil
+       
         [HttpPost]
         public async Task<IActionResult> EliminarCliente(int id)
         {

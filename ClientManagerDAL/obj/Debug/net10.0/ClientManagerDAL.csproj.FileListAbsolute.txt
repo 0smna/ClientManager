@@ -9,3 +9,4 @@ C:\Users\karao\OneDrive\Masaüstü\7. dönem\Programacion de avanzado web\Client
 C:\Users\karao\OneDrive\Masaüstü\7. dönem\Programacion de avanzado web\ClientManager\ClientManagerDAL\obj\Debug\net10.0\refint\ClientManagerDAL.dll
 C:\Users\karao\OneDrive\Masaüstü\7. dönem\Programacion de avanzado web\ClientManager\ClientManagerDAL\obj\Debug\net10.0\ClientManagerDAL.pdb
 C:\Users\karao\OneDrive\Masaüstü\7. dönem\Programacion de avanzado web\ClientManager\ClientManagerDAL\obj\Debug\net10.0\ref\ClientManagerDAL.dll
+C:\Users\karao\OneDrive\Masaüstü\7. dönem\Programacion de avanzado web\ClientManager\ClientManagerDAL\obj\Debug\net10.0\ClientManagerDAL.sourcelink.json

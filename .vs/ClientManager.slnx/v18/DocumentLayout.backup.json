@@ -3,6 +3,38 @@
   "WorkspaceRootPath": "C:\\Users\\karao\\OneDrive\\Masa\u00FCst\u00FC\\7. d\u00F6nem\\Programacion de avanzado web\\ClientManager\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A946CAC7-DEA9-EB4F-9282-327C9C519895}|ClientManagerDAL\\ClientManagerDAL.csproj|c:\\users\\karao\\onedrive\\masa\u00FCst\u00FC\\7. d\u00F6nem\\programacion de avanzado web\\clientmanager\\clientmanagerdal\\repositorios\\clientes\\iclienterepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A946CAC7-DEA9-EB4F-9282-327C9C519895}|ClientManagerDAL\\ClientManagerDAL.csproj|solutionrelative:clientmanagerdal\\repositorios\\clientes\\iclienterepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A946CAC7-DEA9-EB4F-9282-327C9C519895}|ClientManagerDAL\\ClientManagerDAL.csproj|c:\\users\\karao\\onedrive\\masa\u00FCst\u00FC\\7. d\u00F6nem\\programacion de avanzado web\\clientmanager\\clientmanagerdal\\entities\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A946CAC7-DEA9-EB4F-9282-327C9C519895}|ClientManagerDAL\\ClientManagerDAL.csproj|solutionrelative:clientmanagerdal\\entities\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF83DD09-E00E-857B-C2D7-4AA2909AA335}|ClassLibraryBLL\\ClientManagerBLL.csproj|c:\\users\\karao\\onedrive\\masa\u00FCst\u00FC\\7. d\u00F6nem\\programacion de avanzado web\\clientmanager\\classlibrarybll\\servicios\\iclienteservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF83DD09-E00E-857B-C2D7-4AA2909AA335}|ClassLibraryBLL\\ClientManagerBLL.csproj|solutionrelative:classlibrarybll\\servicios\\iclienteservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF83DD09-E00E-857B-C2D7-4AA2909AA335}|ClassLibraryBLL\\ClientManagerBLL.csproj|c:\\users\\karao\\onedrive\\masa\u00FCst\u00FC\\7. d\u00F6nem\\programacion de avanzado web\\clientmanager\\classlibrarybll\\servicios\\clienteservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF83DD09-E00E-857B-C2D7-4AA2909AA335}|ClassLibraryBLL\\ClientManagerBLL.csproj|solutionrelative:classlibrarybll\\servicios\\clienteservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF83DD09-E00E-857B-C2D7-4AA2909AA335}|ClassLibraryBLL\\ClientManagerBLL.csproj|c:\\users\\karao\\onedrive\\masa\u00FCst\u00FC\\7. d\u00F6nem\\programacion de avanzado web\\clientmanager\\classlibrarybll\\dtos\\customresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF83DD09-E00E-857B-C2D7-4AA2909AA335}|ClassLibraryBLL\\ClientManagerBLL.csproj|solutionrelative:classlibrarybll\\dtos\\customresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF83DD09-E00E-857B-C2D7-4AA2909AA335}|ClassLibraryBLL\\ClientManagerBLL.csproj|c:\\users\\karao\\onedrive\\masa\u00FCst\u00FC\\7. d\u00F6nem\\programacion de avanzado web\\clientmanager\\classlibrarybll\\dtos\\clientedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF83DD09-E00E-857B-C2D7-4AA2909AA335}|ClassLibraryBLL\\ClientManagerBLL.csproj|solutionrelative:classlibrarybll\\dtos\\clientedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFF55077-32F5-B727-35AD-1F83AC1661A3}|ClientManager\\ClientManager.csproj|c:\\users\\karao\\onedrive\\masa\u00FCst\u00FC\\7. d\u00F6nem\\programacion de avanzado web\\clientmanager\\clientmanager\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFF55077-32F5-B727-35AD-1F83AC1661A3}|ClientManager\\ClientManager.csproj|solutionrelative:clientmanager\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFF55077-32F5-B727-35AD-1F83AC1661A3}|ClientManager\\ClientManager.csproj|c:\\users\\karao\\onedrive\\masa\u00FCst\u00FC\\7. d\u00F6nem\\programacion de avanzado web\\clientmanager\\clientmanager\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFF55077-32F5-B727-35AD-1F83AC1661A3}|ClientManager\\ClientManager.csproj|solutionrelative:clientmanager\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EFF55077-32F5-B727-35AD-1F83AC1661A3}|ClientManager\\ClientManager.csproj|c:\\users\\karao\\onedrive\\masa\u00FCst\u00FC\\7. d\u00F6nem\\programacion de avanzado web\\clientmanager\\clientmanager\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{EFF55077-32F5-B727-35AD-1F83AC1661A3}|ClientManager\\ClientManager.csproj|solutionrelative:clientmanager\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -21,6 +53,22 @@
     {
       "AbsoluteMoniker": "D:0:0:{EFF55077-32F5-B727-35AD-1F83AC1661A3}|ClientManager\\ClientManager.csproj|c:\\users\\karao\\onedrive\\masa\u00FCst\u00FC\\7. d\u00F6nem\\programacion de avanzado web\\clientmanager\\clientmanager\\views\\cliente\\_crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{EFF55077-32F5-B727-35AD-1F83AC1661A3}|ClientManager\\ClientManager.csproj|solutionrelative:clientmanager\\views\\cliente\\_crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFF55077-32F5-B727-35AD-1F83AC1661A3}|ClientManager\\ClientManager.csproj|c:\\users\\karao\\onedrive\\masa\u00FCst\u00FC\\7. d\u00F6nem\\programacion de avanzado web\\clientmanager\\clientmanager\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFF55077-32F5-B727-35AD-1F83AC1661A3}|ClientManager\\ClientManager.csproj|solutionrelative:clientmanager\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFF55077-32F5-B727-35AD-1F83AC1661A3}|ClientManager\\ClientManager.csproj|c:\\users\\karao\\onedrive\\masa\u00FCst\u00FC\\7. d\u00F6nem\\programacion de avanzado web\\clientmanager\\clientmanager\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFF55077-32F5-B727-35AD-1F83AC1661A3}|ClientManager\\ClientManager.csproj|solutionrelative:clientmanager\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFF55077-32F5-B727-35AD-1F83AC1661A3}|ClientManager\\ClientManager.csproj|c:\\users\\karao\\onedrive\\masa\u00FCst\u00FC\\7. d\u00F6nem\\programacion de avanzado web\\clientmanager\\clientmanager\\wwwroot\\js\\cliente.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{EFF55077-32F5-B727-35AD-1F83AC1661A3}|ClientManager\\ClientManager.csproj|solutionrelative:clientmanager\\wwwroot\\js\\cliente.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF83DD09-E00E-857B-C2D7-4AA2909AA335}|ClassLibraryBLL\\ClientManagerBLL.csproj|c:\\users\\karao\\onedrive\\masa\u00FCst\u00FC\\7. d\u00F6nem\\programacion de avanzado web\\clientmanager\\classlibrarybll\\mapeoclases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF83DD09-E00E-857B-C2D7-4AA2909AA335}|ClassLibraryBLL\\ClientManagerBLL.csproj|solutionrelative:classlibrarybll\\mapeoclases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,24 +78,167 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\karao\\OneDrive\\Masa\u00FCst\u00FC\\7. d\u00F6nem\\Programacion de avanzado web\\ClientManager\\ClientManager\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "ClientManager\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\karao\\OneDrive\\Masa\u00FCst\u00FC\\7. d\u00F6nem\\Programacion de avanzado web\\ClientManager\\ClientManager\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "ClientManager\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAIwBgAAAAtAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "ClienteServicio.cs",
+              "DocumentMoniker": "C:\\Users\\karao\\OneDrive\\Masa\u00FCst\u00FC\\7. d\u00F6nem\\Programacion de avanzado web\\ClientManager\\ClassLibraryBLL\\Servicios\\ClienteServicio.cs",
+              "RelativeDocumentMoniker": "ClassLibraryBLL\\Servicios\\ClienteServicio.cs",
+              "ToolTip": "C:\\Users\\karao\\OneDrive\\Masa\u00FCst\u00FC\\7. d\u00F6nem\\Programacion de avanzado web\\ClientManager\\ClassLibraryBLL\\Servicios\\ClienteServicio.cs",
+              "RelativeToolTip": "ClassLibraryBLL\\Servicios\\ClienteServicio.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T17:14:24.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ClienteDto.cs",
+              "DocumentMoniker": "C:\\Users\\karao\\OneDrive\\Masa\u00FCst\u00FC\\7. d\u00F6nem\\Programacion de avanzado web\\ClientManager\\ClassLibraryBLL\\Dtos\\ClienteDto.cs",
+              "RelativeDocumentMoniker": "ClassLibraryBLL\\Dtos\\ClienteDto.cs",
+              "ToolTip": "C:\\Users\\karao\\OneDrive\\Masa\u00FCst\u00FC\\7. d\u00F6nem\\Programacion de avanzado web\\ClientManager\\ClassLibraryBLL\\Dtos\\ClienteDto.cs",
+              "RelativeToolTip": "ClassLibraryBLL\\Dtos\\ClienteDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T17:14:20.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\karao\\OneDrive\\Masa\u00FCst\u00FC\\7. d\u00F6nem\\Programacion de avanzado web\\ClientManager\\ClientManager\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "ClientManager\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\karao\\OneDrive\\Masa\u00FCst\u00FC\\7. d\u00F6nem\\Programacion de avanzado web\\ClientManager\\ClientManager\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "ClientManager\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-10T16:43:40.843Z",
+              "WhenOpened": "2026-02-10T17:14:17.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IClienteServicio.cs",
+              "DocumentMoniker": "C:\\Users\\karao\\OneDrive\\Masa\u00FCst\u00FC\\7. d\u00F6nem\\Programacion de avanzado web\\ClientManager\\ClassLibraryBLL\\Servicios\\IClienteServicio.cs",
+              "RelativeDocumentMoniker": "ClassLibraryBLL\\Servicios\\IClienteServicio.cs",
+              "ToolTip": "C:\\Users\\karao\\OneDrive\\Masa\u00FCst\u00FC\\7. d\u00F6nem\\Programacion de avanzado web\\ClientManager\\ClassLibraryBLL\\Servicios\\IClienteServicio.cs",
+              "RelativeToolTip": "ClassLibraryBLL\\Servicios\\IClienteServicio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T17:11:28.662Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\karao\\OneDrive\\Masa\u00FCst\u00FC\\7. d\u00F6nem\\Programacion de avanzado web\\ClientManager\\ClientManagerDAL\\Entities\\Cliente.cs",
+              "RelativeDocumentMoniker": "ClientManagerDAL\\Entities\\Cliente.cs",
+              "ToolTip": "C:\\Users\\karao\\OneDrive\\Masa\u00FCst\u00FC\\7. d\u00F6nem\\Programacion de avanzado web\\ClientManager\\ClientManagerDAL\\Entities\\Cliente.cs",
+              "RelativeToolTip": "ClientManagerDAL\\Entities\\Cliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T17:11:50.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IClienteRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\karao\\OneDrive\\Masa\u00FCst\u00FC\\7. d\u00F6nem\\Programacion de avanzado web\\ClientManager\\ClientManagerDAL\\Repositorios\\Clientes\\IClienteRepositorio.cs",
+              "RelativeDocumentMoniker": "ClientManagerDAL\\Repositorios\\Clientes\\IClienteRepositorio.cs",
+              "ToolTip": "C:\\Users\\karao\\OneDrive\\Masa\u00FCst\u00FC\\7. d\u00F6nem\\Programacion de avanzado web\\ClientManager\\ClientManagerDAL\\Repositorios\\Clientes\\IClienteRepositorio.cs",
+              "RelativeToolTip": "ClientManagerDAL\\Repositorios\\Clientes\\IClienteRepositorio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T17:12:07.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\karao\\OneDrive\\Masa\u00FCst\u00FC\\7. d\u00F6nem\\Programacion de avanzado web\\ClientManager\\ClientManager\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "ClientManager\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\karao\\OneDrive\\Masa\u00FCst\u00FC\\7. d\u00F6nem\\Programacion de avanzado web\\ClientManager\\ClientManager\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "ClientManager\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-10T17:14:16.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_Editar.cshtml",
+              "DocumentMoniker": "C:\\Users\\karao\\OneDrive\\Masa\u00FCst\u00FC\\7. d\u00F6nem\\Programacion de avanzado web\\ClientManager\\ClientManager\\Views\\Cliente\\_Editar.cshtml",
+              "RelativeDocumentMoniker": "ClientManager\\Views\\Cliente\\_Editar.cshtml",
+              "ToolTip": "C:\\Users\\karao\\OneDrive\\Masa\u00FCst\u00FC\\7. d\u00F6nem\\Programacion de avanzado web\\ClientManager\\ClientManager\\Views\\Cliente\\_Editar.cshtml",
+              "RelativeToolTip": "ClientManager\\Views\\Cliente\\_Editar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-10T16:42:54.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_Crear.cshtml",
+              "DocumentMoniker": "C:\\Users\\karao\\OneDrive\\Masa\u00FCst\u00FC\\7. d\u00F6nem\\Programacion de avanzado web\\ClientManager\\ClientManager\\Views\\Cliente\\_Crear.cshtml",
+              "RelativeDocumentMoniker": "ClientManager\\Views\\Cliente\\_Crear.cshtml",
+              "ToolTip": "C:\\Users\\karao\\OneDrive\\Masa\u00FCst\u00FC\\7. d\u00F6nem\\Programacion de avanzado web\\ClientManager\\ClientManager\\Views\\Cliente\\_Crear.cshtml",
+              "RelativeToolTip": "ClientManager\\Views\\Cliente\\_Crear.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-10T01:58:17.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CustomResponse.cs",
+              "DocumentMoniker": "C:\\Users\\karao\\OneDrive\\Masa\u00FCst\u00FC\\7. d\u00F6nem\\Programacion de avanzado web\\ClientManager\\ClassLibraryBLL\\Dtos\\CustomResponse.cs",
+              "RelativeDocumentMoniker": "ClassLibraryBLL\\Dtos\\CustomResponse.cs",
+              "ToolTip": "C:\\Users\\karao\\OneDrive\\Masa\u00FCst\u00FC\\7. d\u00F6nem\\Programacion de avanzado web\\ClientManager\\ClassLibraryBLL\\Dtos\\CustomResponse.cs",
+              "RelativeToolTip": "ClassLibraryBLL\\Dtos\\CustomResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T17:11:03.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\karao\\OneDrive\\Masa\u00FCst\u00FC\\7. d\u00F6nem\\Programacion de avanzado web\\ClientManager\\ClientManager\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ClientManager\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\karao\\OneDrive\\Masa\u00FCst\u00FC\\7. d\u00F6nem\\Programacion de avanzado web\\ClientManager\\ClientManager\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ClientManager\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwBUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T17:08:52.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\karao\\OneDrive\\Masa\u00FCst\u00FC\\7. d\u00F6nem\\Programacion de avanzado web\\ClientManager\\ClientManager\\Views\\Cliente\\Index.cshtml",
+              "RelativeDocumentMoniker": "ClientManager\\Views\\Cliente\\Index.cshtml",
+              "ToolTip": "C:\\Users\\karao\\OneDrive\\Masa\u00FCst\u00FC\\7. d\u00F6nem\\Programacion de avanzado web\\ClientManager\\ClientManager\\Views\\Cliente\\Index.cshtml",
+              "RelativeToolTip": "ClientManager\\Views\\Cliente\\Index.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-10T16:43:01.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\karao\\OneDrive\\Masa\u00FCst\u00FC\\7. d\u00F6nem\\Programacion de avanzado web\\ClientManager\\ClientManager\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "ClientManager\\Views\\Home\\Index.cshtml",
@@ -60,42 +251,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\karao\\OneDrive\\Masa\u00FCst\u00FC\\7. d\u00F6nem\\Programacion de avanzado web\\ClientManager\\ClientManager\\Views\\Cliente\\Index.cshtml",
-              "RelativeDocumentMoniker": "ClientManager\\Views\\Cliente\\Index.cshtml",
-              "ToolTip": "C:\\Users\\karao\\OneDrive\\Masa\u00FCst\u00FC\\7. d\u00F6nem\\Programacion de avanzado web\\ClientManager\\ClientManager\\Views\\Cliente\\Index.cshtml",
-              "RelativeToolTip": "ClientManager\\Views\\Cliente\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\karao\\OneDrive\\Masa\u00FCst\u00FC\\7. d\u00F6nem\\Programacion de avanzado web\\ClientManager\\ClientManager\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ClientManager\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\karao\\OneDrive\\Masa\u00FCst\u00FC\\7. d\u00F6nem\\Programacion de avanzado web\\ClientManager\\ClientManager\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ClientManager\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-10T16:43:01.991Z",
+              "WhenOpened": "2026-02-10T16:43:40.843Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_Editar.cshtml",
-              "DocumentMoniker": "C:\\Users\\karao\\OneDrive\\Masa\u00FCst\u00FC\\7. d\u00F6nem\\Programacion de avanzado web\\ClientManager\\ClientManager\\Views\\Cliente\\_Editar.cshtml",
-              "RelativeDocumentMoniker": "ClientManager\\Views\\Cliente\\_Editar.cshtml",
-              "ToolTip": "C:\\Users\\karao\\OneDrive\\Masa\u00FCst\u00FC\\7. d\u00F6nem\\Programacion de avanzado web\\ClientManager\\ClientManager\\Views\\Cliente\\_Editar.cshtml",
-              "RelativeToolTip": "ClientManager\\Views\\Cliente\\_Editar.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-10T16:42:54.449Z",
+              "DocumentIndex": 14,
+              "Title": "ClienteController.cs",
+              "DocumentMoniker": "C:\\Users\\karao\\OneDrive\\Masa\u00FCst\u00FC\\7. d\u00F6nem\\Programacion de avanzado web\\ClientManager\\ClientManager\\Controllers\\ClienteController.cs",
+              "RelativeDocumentMoniker": "ClientManager\\Controllers\\ClienteController.cs",
+              "ToolTip": "C:\\Users\\karao\\OneDrive\\Masa\u00FCst\u00FC\\7. d\u00F6nem\\Programacion de avanzado web\\ClientManager\\ClientManager\\Controllers\\ClienteController.cs",
+              "RelativeToolTip": "ClientManager\\Controllers\\ClienteController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAA3wC0AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T17:13:26.049Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_Crear.cshtml",
-              "DocumentMoniker": "C:\\Users\\karao\\OneDrive\\Masa\u00FCst\u00FC\\7. d\u00F6nem\\Programacion de avanzado web\\ClientManager\\ClientManager\\Views\\Cliente\\_Crear.cshtml",
-              "RelativeDocumentMoniker": "ClientManager\\Views\\Cliente\\_Crear.cshtml",
-              "ToolTip": "C:\\Users\\karao\\OneDrive\\Masa\u00FCst\u00FC\\7. d\u00F6nem\\Programacion de avanzado web\\ClientManager\\ClientManager\\Views\\Cliente\\_Crear.cshtml",
-              "RelativeToolTip": "ClientManager\\Views\\Cliente\\_Crear.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-10T01:58:17.799Z",
+              "DocumentIndex": 15,
+              "Title": "Cliente.js",
+              "DocumentMoniker": "C:\\Users\\karao\\OneDrive\\Masa\u00FCst\u00FC\\7. d\u00F6nem\\Programacion de avanzado web\\ClientManager\\ClientManager\\wwwroot\\js\\Cliente.js",
+              "RelativeDocumentMoniker": "ClientManager\\wwwroot\\js\\Cliente.js",
+              "ToolTip": "C:\\Users\\karao\\OneDrive\\Masa\u00FCst\u00FC\\7. d\u00F6nem\\Programacion de avanzado web\\ClientManager\\ClientManager\\wwwroot\\js\\Cliente.js",
+              "RelativeToolTip": "ClientManager\\wwwroot\\js\\Cliente.js",
+              "ViewState": "AgIAAJYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-02-10T17:13:18.172Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MapeoClases.cs",
+              "DocumentMoniker": "C:\\Users\\karao\\OneDrive\\Masa\u00FCst\u00FC\\7. d\u00F6nem\\Programacion de avanzado web\\ClientManager\\ClassLibraryBLL\\MapeoClases.cs",
+              "RelativeDocumentMoniker": "ClassLibraryBLL\\MapeoClases.cs",
+              "ToolTip": "C:\\Users\\karao\\OneDrive\\Masa\u00FCst\u00FC\\7. d\u00F6nem\\Programacion de avanzado web\\ClientManager\\ClassLibraryBLL\\MapeoClases.cs",
+              "RelativeToolTip": "ClassLibraryBLL\\MapeoClases.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T17:11:33.362Z"
             }
           ]
         }

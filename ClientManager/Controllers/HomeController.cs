@@ -19,7 +19,7 @@ namespace ClientManager.Controllers
         {
             var response = await _servicio.ObtenerClientesAsync();
 
-            // View’a sadece Data kýsmýný gönderiyoruz
+            
             List<ClienteDto> lista = response.Data ?? new List<ClienteDto>();
 
             return View(lista);
@@ -33,7 +33,7 @@ namespace ClientManager.Controllers
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
-            return View(); // Eðer özel model yoksa basit View döndürüyoruz
+            return View(); 
         }
     }
 }
