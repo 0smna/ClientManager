@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "KONO1SZv9YU=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\karao\\OneDrive\\Masaüstü\\7. dönem\\Programacion de avanzado web\\ClientManager\\ClientManager\\ClientManager.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\karao\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "C:\\Users\\karao\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

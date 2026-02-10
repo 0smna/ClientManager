@@ -1,0 +1,33 @@
+﻿@model ClientManagerBLL.Dtos.ClienteDto
+
+<div class="modal fade" id="modalEditarCliente" tabindex="-1" aria-labelledby="modalEditarClienteLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalEditarClienteLabel">Editar Cliente</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form id="formEditarCliente" asp-action="ActualizarCliente" method="post">
+                    <input type="hidden" asp-for="Id" id="ClienteId" />
+                    <div class="mb-3">
+                        <label for="Nombre" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="Nombre" name="Nombre" required />
+                    </div>
+                    <div class="mb-3">
+                        <label for="Correo" class="form-label">Correo</label>
+                        <input type="email" class="form-control" id="Correo" name="Correo" required />
+                    </div>
+                    <div class="mb-3">
+                        <label for="Telefono" class="form-label">Telefono</label>
+                        <input type="text" class="form-control" id="Telefono" name="Telefono" required />
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-primary" id="btnActualizarCliente">Actualizar Cliente</button>
+            </div>
+        </div>
+    </div>
+</div>

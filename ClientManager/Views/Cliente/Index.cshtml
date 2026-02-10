@@ -1,0 +1,34 @@
+﻿@using ClientManagerBLL.Dtos
+@model List<ClienteDto>
+
+@{
+    ViewData["Title"] = "Clientes";
+}
+
+<h1>Lista de Clientes</h1>
+
+<button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#modalCrearCliente">
+    Agregar Cliente
+</button>
+
+<table id="tblCliente" class="table table-striped" style="width:100%">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Nombre</th>
+            <th>Correo</th>
+            <th>Telefono</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody></tbody>
+</table>
+
+@* Partial viewlerin sırası önemli *@
+@await Html.PartialAsync("_Editar")
+@await Html.PartialAsync("_Crear")
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script src="~/js/Cliente.js" asp-append-version="true"></script>
+}
