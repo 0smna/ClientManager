@@ -90,8 +90,7 @@
               "RelativeToolTip": "ClassLibraryBLL\\Servicios\\ClienteServicio.cs",
               "ViewState": "AgIAAFoAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T17:14:24.565Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-10T17:14:24.565Z"
             },
             {
               "$type": "Document",
@@ -103,8 +102,7 @@
               "RelativeToolTip": "ClassLibraryBLL\\Dtos\\ClienteDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T17:14:20.902Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-10T17:14:20.902Z"
             },
             {
               "$type": "Document",
@@ -116,8 +114,7 @@
               "RelativeToolTip": "ClientManager\\Views\\Shared\\Error.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-10T17:14:17.674Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-10T17:14:17.674Z"
             },
             {
               "$type": "Document",
@@ -129,8 +126,7 @@
               "RelativeToolTip": "ClassLibraryBLL\\Servicios\\IClienteServicio.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T17:11:28.662Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-10T17:11:28.662Z"
             },
             {
               "$type": "Document",
@@ -142,8 +138,7 @@
               "RelativeToolTip": "ClientManagerDAL\\Entities\\Cliente.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T17:11:50.22Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-10T17:11:50.22Z"
             },
             {
               "$type": "Document",
@@ -168,8 +163,7 @@
               "RelativeToolTip": "ClientManager\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-10T17:14:16.462Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-10T17:14:16.462Z"
             },
             {
               "$type": "Document",
@@ -181,8 +175,7 @@
               "RelativeToolTip": "ClientManager\\Views\\Cliente\\_Editar.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-10T16:42:54.449Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-10T16:42:54.449Z"
             },
             {
               "$type": "Document",
@@ -194,8 +187,7 @@
               "RelativeToolTip": "ClientManager\\Views\\Cliente\\_Crear.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-10T01:58:17.799Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-10T01:58:17.799Z"
             },
             {
               "$type": "Document",
@@ -207,8 +199,7 @@
               "RelativeToolTip": "ClassLibraryBLL\\Dtos\\CustomResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T17:11:03.178Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-10T17:11:03.178Z"
             },
             {
               "$type": "Document",
@@ -220,8 +211,7 @@
               "RelativeToolTip": "ClientManager\\Controllers\\HomeController.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAYwBUAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T17:08:52.556Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-10T17:08:52.556Z"
             },
             {
               "$type": "Document",
@@ -233,8 +223,7 @@
               "RelativeToolTip": "ClientManager\\Views\\Cliente\\Index.cshtml",
               "ViewState": "AgIAAAYAAAAAAAAAAIBJwB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-10T16:43:01.991Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-10T16:43:01.991Z"
             },
             {
               "$type": "Document",
@@ -246,8 +235,7 @@
               "RelativeToolTip": "ClientManager\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-10T16:43:28.599Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-10T16:43:28.599Z"
             },
             {
               "$type": "Document",
@@ -259,8 +247,7 @@
               "RelativeToolTip": "ClientManager\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-10T16:43:40.843Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-10T16:43:40.843Z"
             },
             {
               "$type": "Document",
@@ -272,8 +259,7 @@
               "RelativeToolTip": "ClientManager\\Controllers\\ClienteController.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAYwC0AAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T17:13:26.049Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-10T17:13:26.049Z"
             },
             {
               "$type": "Document",
@@ -285,8 +271,7 @@
               "RelativeToolTip": "ClientManager\\wwwroot\\js\\Cliente.js",
               "ViewState": "AgIAAJMAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2026-02-10T17:13:18.172Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-10T17:13:18.172Z"
             },
             {
               "$type": "Document",
@@ -298,8 +283,7 @@
               "RelativeToolTip": "ClassLibraryBLL\\MapeoClases.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T17:11:33.362Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-10T17:11:33.362Z"
             }
           ]
         }

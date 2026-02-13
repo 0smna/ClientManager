@@ -231,7 +231,7 @@
               "RelativeDocumentMoniker": "ClientManager\\Views\\Cliente\\Index.cshtml",
               "ToolTip": "C:\\Users\\karao\\OneDrive\\Masa\u00FCst\u00FC\\7. d\u00F6nem\\Programacion de avanzado web\\ClientManager\\ClientManager\\Views\\Cliente\\Index.cshtml",
               "RelativeToolTip": "ClientManager\\Views\\Cliente\\Index.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBJwB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-02-10T16:43:01.991Z",
               "EditorCaption": ""
@@ -270,7 +270,7 @@
               "RelativeDocumentMoniker": "ClientManager\\Controllers\\ClienteController.cs",
               "ToolTip": "C:\\Users\\karao\\OneDrive\\Masa\u00FCst\u00FC\\7. d\u00F6nem\\Programacion de avanzado web\\ClientManager\\ClientManager\\Controllers\\ClienteController.cs",
               "RelativeToolTip": "ClientManager\\Controllers\\ClienteController.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAA3wC0AAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwC0AAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-10T17:13:26.049Z",
               "EditorCaption": ""
@@ -283,7 +283,7 @@
               "RelativeDocumentMoniker": "ClientManager\\wwwroot\\js\\Cliente.js",
               "ToolTip": "C:\\Users\\karao\\OneDrive\\Masa\u00FCst\u00FC\\7. d\u00F6nem\\Programacion de avanzado web\\ClientManager\\ClientManager\\wwwroot\\js\\Cliente.js",
               "RelativeToolTip": "ClientManager\\wwwroot\\js\\Cliente.js",
-              "ViewState": "AgIAAJYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAJMAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2026-02-10T17:13:18.172Z",
               "EditorCaption": ""
@@ -298,7 +298,8 @@
               "RelativeToolTip": "ClassLibraryBLL\\MapeoClases.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T17:11:33.362Z"
+              "WhenOpened": "2026-02-10T17:11:33.362Z",
+              "EditorCaption": ""
             }
           ]
         }
