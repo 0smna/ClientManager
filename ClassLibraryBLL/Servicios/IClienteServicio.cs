@@ -1,4 +1,5 @@
 ﻿using ClientManagerBLL.Dtos;
+using ClientManagerDAL.Entities;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
@@ -11,5 +12,9 @@ namespace ClientManagerBLL.Servicios
         Task<CustomResponse<ClienteDto>> AgregarClienteAsync(ClienteDto clienteDto);
         Task<CustomResponse<ClienteDto>> ActualizarClienteAsync(ClienteDto clienteDto);
         Task<CustomResponse<ClienteDto>> EliminarClienteAsync(int id);
+        
+        
+
+
     }
 }

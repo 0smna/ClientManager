@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\ClassLibraryBLL",
+    "\\ClientManager",
+    "\\ClientManagerDAL",
+    "\\ClientManagerDAL\\Repositorios",
+    "\\ClientManagerDAL\\Repositorios\\Clientes",
+    "\\ClientManager\\Models",
+    "\\ClientManager\\Properties",
+    "\\ClientManager\\Views",
+    "\\ClientManager\\Views\\Home"
+  ],
+  "PreviewInSolutionExplorer": false
+}

@@ -1,0 +1,190 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\xampp\\htdocs\\ClientManager\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EFF55077-32F5-B727-35AD-1F83AC1661A3}|ClientManager\\ClientManager.csproj|c:\\xampp\\htdocs\\clientmanager\\clientmanager\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFF55077-32F5-B727-35AD-1F83AC1661A3}|ClientManager\\ClientManager.csproj|solutionrelative:clientmanager\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF83DD09-E00E-857B-C2D7-4AA2909AA335}|ClassLibraryBLL\\ClientManagerBLL.csproj|c:\\xampp\\htdocs\\clientmanager\\classlibrarybll\\servicios\\iclienteservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF83DD09-E00E-857B-C2D7-4AA2909AA335}|ClassLibraryBLL\\ClientManagerBLL.csproj|solutionrelative:classlibrarybll\\servicios\\iclienteservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A946CAC7-DEA9-EB4F-9282-327C9C519895}|ClientManagerDAL\\ClientManagerDAL.csproj|c:\\xampp\\htdocs\\clientmanager\\clientmanagerdal\\repositorios\\clientes\\clienterepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A946CAC7-DEA9-EB4F-9282-327C9C519895}|ClientManagerDAL\\ClientManagerDAL.csproj|solutionrelative:clientmanagerdal\\repositorios\\clientes\\clienterepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A946CAC7-DEA9-EB4F-9282-327C9C519895}|ClientManagerDAL\\ClientManagerDAL.csproj|c:\\xampp\\htdocs\\clientmanager\\clientmanagerdal\\repositorios\\clientes\\iclienterepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A946CAC7-DEA9-EB4F-9282-327C9C519895}|ClientManagerDAL\\ClientManagerDAL.csproj|solutionrelative:clientmanagerdal\\repositorios\\clientes\\iclienterepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF83DD09-E00E-857B-C2D7-4AA2909AA335}|ClassLibraryBLL\\ClientManagerBLL.csproj|c:\\xampp\\htdocs\\clientmanager\\classlibrarybll\\servicios\\clienteservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF83DD09-E00E-857B-C2D7-4AA2909AA335}|ClassLibraryBLL\\ClientManagerBLL.csproj|solutionrelative:classlibrarybll\\servicios\\clienteservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFF55077-32F5-B727-35AD-1F83AC1661A3}|ClientManager\\ClientManager.csproj|c:\\xampp\\htdocs\\clientmanager\\clientmanager\\wwwroot\\js\\cliente.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{EFF55077-32F5-B727-35AD-1F83AC1661A3}|ClientManager\\ClientManager.csproj|solutionrelative:clientmanager\\wwwroot\\js\\cliente.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFF55077-32F5-B727-35AD-1F83AC1661A3}|ClientManager\\ClientManager.csproj|c:\\xampp\\htdocs\\clientmanager\\clientmanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFF55077-32F5-B727-35AD-1F83AC1661A3}|ClientManager\\ClientManager.csproj|solutionrelative:clientmanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFF55077-32F5-B727-35AD-1F83AC1661A3}|ClientManager\\ClientManager.csproj|c:\\xampp\\htdocs\\clientmanager\\clientmanager\\views\\cliente\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFF55077-32F5-B727-35AD-1F83AC1661A3}|ClientManager\\ClientManager.csproj|solutionrelative:clientmanager\\views\\cliente\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFF55077-32F5-B727-35AD-1F83AC1661A3}|ClientManager\\ClientManager.csproj|c:\\xampp\\htdocs\\clientmanager\\clientmanager\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFF55077-32F5-B727-35AD-1F83AC1661A3}|ClientManager\\ClientManager.csproj|solutionrelative:clientmanager\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFF55077-32F5-B727-35AD-1F83AC1661A3}|ClientManager\\ClientManager.csproj|c:\\xampp\\htdocs\\clientmanager\\clientmanager\\views\\cliente\\_editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFF55077-32F5-B727-35AD-1F83AC1661A3}|ClientManager\\ClientManager.csproj|solutionrelative:clientmanager\\views\\cliente\\_editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClienteRepositorio.cs",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\ClientManager\\ClientManagerDAL\\Repositorios\\Clientes\\ClienteRepositorio.cs",
+              "RelativeDocumentMoniker": "ClientManagerDAL\\Repositorios\\Clientes\\ClienteRepositorio.cs",
+              "ToolTip": "C:\\xampp\\htdocs\\ClientManager\\ClientManagerDAL\\Repositorios\\Clientes\\ClienteRepositorio.cs",
+              "RelativeToolTip": "ClientManagerDAL\\Repositorios\\Clientes\\ClienteRepositorio.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAwwFAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T20:57:52.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IClienteRepositorio.cs",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\ClientManager\\ClientManagerDAL\\Repositorios\\Clientes\\IClienteRepositorio.cs",
+              "RelativeDocumentMoniker": "ClientManagerDAL\\Repositorios\\Clientes\\IClienteRepositorio.cs",
+              "ToolTip": "C:\\xampp\\htdocs\\ClientManager\\ClientManagerDAL\\Repositorios\\Clientes\\IClienteRepositorio.cs",
+              "RelativeToolTip": "ClientManagerDAL\\Repositorios\\Clientes\\IClienteRepositorio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T20:57:38.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ClienteServicio.cs",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\ClientManager\\ClassLibraryBLL\\Servicios\\ClienteServicio.cs",
+              "RelativeDocumentMoniker": "ClassLibraryBLL\\Servicios\\ClienteServicio.cs",
+              "ToolTip": "C:\\xampp\\htdocs\\ClientManager\\ClassLibraryBLL\\Servicios\\ClienteServicio.cs",
+              "RelativeToolTip": "ClassLibraryBLL\\Servicios\\ClienteServicio.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAmwB0AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T20:56:02.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IClienteServicio.cs",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\ClientManager\\ClassLibraryBLL\\Servicios\\IClienteServicio.cs",
+              "RelativeDocumentMoniker": "ClassLibraryBLL\\Servicios\\IClienteServicio.cs",
+              "ToolTip": "C:\\xampp\\htdocs\\ClientManager\\ClassLibraryBLL\\Servicios\\IClienteServicio.cs",
+              "RelativeToolTip": "ClassLibraryBLL\\Servicios\\IClienteServicio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T20:55:42.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Cliente.js",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\ClientManager\\ClientManager\\wwwroot\\js\\Cliente.js",
+              "RelativeDocumentMoniker": "ClientManager\\wwwroot\\js\\Cliente.js",
+              "ToolTip": "C:\\xampp\\htdocs\\ClientManager\\ClientManager\\wwwroot\\js\\Cliente.js",
+              "RelativeToolTip": "ClientManager\\wwwroot\\js\\Cliente.js",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAGQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-02-13T20:47:28.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\ClientManager\\ClientManager\\Program.cs",
+              "RelativeDocumentMoniker": "ClientManager\\Program.cs",
+              "ToolTip": "C:\\xampp\\htdocs\\ClientManager\\ClientManager\\Program.cs",
+              "RelativeToolTip": "ClientManager\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAmwCYAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T20:44:03.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\ClientManager\\ClientManager\\Views\\Cliente\\Index.cshtml",
+              "RelativeDocumentMoniker": "ClientManager\\Views\\Cliente\\Index.cshtml",
+              "ToolTip": "C:\\xampp\\htdocs\\ClientManager\\ClientManager\\Views\\Cliente\\Index.cshtml",
+              "RelativeToolTip": "ClientManager\\Views\\Cliente\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-13T19:45:01.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Editar.cshtml",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\ClientManager\\ClientManager\\Views\\Cliente\\_Editar.cshtml",
+              "RelativeDocumentMoniker": "ClientManager\\Views\\Cliente\\_Editar.cshtml",
+              "ToolTip": "C:\\xampp\\htdocs\\ClientManager\\ClientManager\\Views\\Cliente\\_Editar.cshtml",
+              "RelativeToolTip": "ClientManager\\Views\\Cliente\\_Editar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-13T19:39:29.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClienteController.cs",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\ClientManager\\ClientManager\\Controllers\\ClienteController.cs",
+              "RelativeDocumentMoniker": "ClientManager\\Controllers\\ClienteController.cs",
+              "ToolTip": "C:\\xampp\\htdocs\\ClientManager\\ClientManager\\Controllers\\ClienteController.cs",
+              "RelativeToolTip": "ClientManager\\Controllers\\ClienteController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAqwDgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T19:41:04.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\ClientManager\\ClientManager\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ClientManager\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\xampp\\htdocs\\ClientManager\\ClientManager\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ClientManager\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-13T19:28:12.736Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

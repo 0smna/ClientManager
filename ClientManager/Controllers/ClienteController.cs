@@ -50,5 +50,12 @@ namespace ClienteManager.Controllers
             var response = await _clienteServicio.EliminarClienteAsync(id);
             return Json(response);
         }
+        [HttpGet]
+        public async Task<IActionResult> ObtenerClientePorId(int id)
+        {
+            var response = await _clienteServicio.ObtenerClientePorIdAsync(id);
+            return Json(response);
+        }
+
     }
 }

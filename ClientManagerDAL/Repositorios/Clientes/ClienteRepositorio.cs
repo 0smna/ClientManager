@@ -78,5 +78,7 @@ namespace ClientManagerDAL.Repositorios.Clientes
             var removed = clientes.RemoveAll(c => c.Id == id);
             return await Task.FromResult(removed > 0);
         }
+        
+
     }
 }

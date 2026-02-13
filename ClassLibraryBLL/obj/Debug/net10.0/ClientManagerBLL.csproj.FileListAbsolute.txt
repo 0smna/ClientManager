@@ -14,3 +14,19 @@ C:\Users\karao\OneDrive\Masaüstü\7. dönem\Programacion de avanzado web\Client
 C:\Users\karao\OneDrive\Masaüstü\7. dönem\Programacion de avanzado web\ClientManager\ClassLibraryBLL\obj\Debug\net10.0\ClientManagerBLL.pdb
 C:\Users\karao\OneDrive\Masaüstü\7. dönem\Programacion de avanzado web\ClientManager\ClassLibraryBLL\obj\Debug\net10.0\ref\ClientManagerBLL.dll
 C:\Users\karao\OneDrive\Masaüstü\7. dönem\Programacion de avanzado web\ClientManager\ClassLibraryBLL\obj\Debug\net10.0\ClientManagerBLL.sourcelink.json
+C:\xampp\htdocs\ClientManager\ClassLibraryBLL\obj\Debug\net10.0\ClientManagerBLL.dll
+C:\xampp\htdocs\ClientManager\ClassLibraryBLL\obj\Debug\net10.0\refint\ClientManagerBLL.dll
+C:\xampp\htdocs\ClientManager\ClassLibraryBLL\obj\Debug\net10.0\ClientManagerBLL.pdb
+C:\xampp\htdocs\ClientManager\ClassLibraryBLL\bin\Debug\net10.0\ClientManagerBLL.deps.json
+C:\xampp\htdocs\ClientManager\ClassLibraryBLL\bin\Debug\net10.0\ClientManagerBLL.dll
+C:\xampp\htdocs\ClientManager\ClassLibraryBLL\bin\Debug\net10.0\ClientManagerBLL.pdb
+C:\xampp\htdocs\ClientManager\ClassLibraryBLL\bin\Debug\net10.0\ClientManagerDAL.dll
+C:\xampp\htdocs\ClientManager\ClassLibraryBLL\bin\Debug\net10.0\ClientManagerDAL.pdb
+C:\xampp\htdocs\ClientManager\ClassLibraryBLL\obj\Debug\net10.0\ClientManagerBLL.csproj.AssemblyReference.cache
+C:\xampp\htdocs\ClientManager\ClassLibraryBLL\obj\Debug\net10.0\ClientManagerBLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\xampp\htdocs\ClientManager\ClassLibraryBLL\obj\Debug\net10.0\ClientManagerBLL.AssemblyInfoInputs.cache
+C:\xampp\htdocs\ClientManager\ClassLibraryBLL\obj\Debug\net10.0\ClientManagerBLL.AssemblyInfo.cs
+C:\xampp\htdocs\ClientManager\ClassLibraryBLL\obj\Debug\net10.0\ClientManagerBLL.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\ClientManager\ClassLibraryBLL\obj\Debug\net10.0\ClientManagerBLL.sourcelink.json
+C:\xampp\htdocs\ClientManager\ClassLibraryBLL\obj\Debug\net10.0\ClientMa.69F4CF01.Up2Date
+C:\xampp\htdocs\ClientManager\ClassLibraryBLL\obj\Debug\net10.0\ref\ClientManagerBLL.dll

@@ -27,6 +27,7 @@ namespace ClientManagerBLL.Servicios
 
             return response;
         }
+       
 
         public async Task<CustomResponse<ClienteDto>> ObtenerClientePorIdAsync(int id)
         {

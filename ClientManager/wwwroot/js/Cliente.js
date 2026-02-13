@@ -87,15 +87,18 @@
             $.get(`/Cliente/ObtenerClientePorId?id=${id}`, (response) => {
                 if (response.esCorrecto) {
                     let data = response.data;
+
                     $('#ClienteId').val(data.id);
                     $('#Nombre').val(data.nombre);
                     $('#Correo').val(data.correo);
                     $('#Telefono').val(data.telefono);
 
-                    $('#modalEditarCliente').modal('show');
+                    let modal = new bootstrap.Modal(document.getElementById('modalEditarCliente'));
+                    modal.show();
                 }
             });
         },
+
 
         editarCliente() {
             let form = $('#formEditarCliente');
@@ -107,7 +110,9 @@
                 data: form.serialize(),
                 success: (response) => {
                     if (response.esCorrecto) {
-                        $('#modalEditarCliente').modal('hide');
+                        let modalElement = document.getElementById('modalEditarCliente');
+                        let modal = bootstrap.Modal.getInstance(modalElement);
+                        modal.hide();
                         form[0].reset();
                         this.tabla.ajax.reload(null, false);
 
