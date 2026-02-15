@@ -22,3 +22,15 @@ C:\xampp\htdocs\ClientManager\ClientManagerDAL\obj\Debug\net10.0\ClientManagerDA
 C:\xampp\htdocs\ClientManager\ClientManagerDAL\obj\Debug\net10.0\refint\ClientManagerDAL.dll
 C:\xampp\htdocs\ClientManager\ClientManagerDAL\obj\Debug\net10.0\ClientManagerDAL.pdb
 C:\xampp\htdocs\ClientManager\ClientManagerDAL\obj\Debug\net10.0\ref\ClientManagerDAL.dll
+C:\Users\allan\source\repos\ClientManager\ClientManagerDAL\bin\Debug\net10.0\ClientManagerDAL.deps.json
+C:\Users\allan\source\repos\ClientManager\ClientManagerDAL\bin\Debug\net10.0\ClientManagerDAL.dll
+C:\Users\allan\source\repos\ClientManager\ClientManagerDAL\bin\Debug\net10.0\ClientManagerDAL.pdb
+C:\Users\allan\source\repos\ClientManager\ClientManagerDAL\obj\Debug\net10.0\ClientManagerDAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\allan\source\repos\ClientManager\ClientManagerDAL\obj\Debug\net10.0\ClientManagerDAL.AssemblyInfoInputs.cache
+C:\Users\allan\source\repos\ClientManager\ClientManagerDAL\obj\Debug\net10.0\ClientManagerDAL.AssemblyInfo.cs
+C:\Users\allan\source\repos\ClientManager\ClientManagerDAL\obj\Debug\net10.0\ClientManagerDAL.csproj.CoreCompileInputs.cache
+C:\Users\allan\source\repos\ClientManager\ClientManagerDAL\obj\Debug\net10.0\ClientManagerDAL.sourcelink.json
+C:\Users\allan\source\repos\ClientManager\ClientManagerDAL\obj\Debug\net10.0\ClientManagerDAL.dll
+C:\Users\allan\source\repos\ClientManager\ClientManagerDAL\obj\Debug\net10.0\refint\ClientManagerDAL.dll
+C:\Users\allan\source\repos\ClientManager\ClientManagerDAL\obj\Debug\net10.0\ClientManagerDAL.pdb
+C:\Users\allan\source\repos\ClientManager\ClientManagerDAL\obj\Debug\net10.0\ref\ClientManagerDAL.dll

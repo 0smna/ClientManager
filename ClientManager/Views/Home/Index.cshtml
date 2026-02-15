@@ -2,7 +2,24 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="container mt-5">
+    <div class="text-center">
+
+        <h1 class="display-4 fw-bold text-primary">
+            <i class="bi bi-people-fill"></i>
+            Sistema Gestor de Clientes
+        </h1>
+
+        <p class="lead mt-3 text-muted">
+            Administre y controle la información de sus clientes de manera eficiente.
+        </p>
+
+        <a asp-controller="Cliente"
+           asp-action="Index"
+           class="btn btn-primary btn-lg mt-4 shadow">
+            <i class="bi bi-arrow-right-circle"></i>
+            Ir al módulo de Clientes
+        </a>
+
+    </div>
 </div>

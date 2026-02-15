@@ -1,29 +1,61 @@
-﻿    @using ClientManagerBLL.Dtos
+﻿@using ClientManagerBLL.Dtos
 @model List<ClienteDto>
 
 @{
     ViewData["Title"] = "Clientes";
 }
 
-<h1>Lista de Clientes</h1>
+<div class="container mt-4">
 
-<button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#modalCrearCliente">
-    Agregar Cliente
-</button>
+    <!-- Encabezado moderno -->
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2 class="fw-bold display-6">
+            <i class="bi bi-people"></i> Gestión de Clientes
+        </h2>
 
-<table id="tblCliente" class="table table-striped" style="width:100%">
-    <thead>
-        <tr>
-            <th>Id</th>
-            <th>Nombre</th>
-            <th>Correo</th>
-            <th>Telefono</th>
-            <th>Acciones</th>
-        </tr>
-    </thead>
-    <tbody></tbody>
-</table>
+        <button type="button"
+                class="btn btn-success shadow-sm rounded-pill px-4 fw-semibold"
+                data-bs-toggle="modal"
+                data-bs-target="#modalCrearCliente">
+            <i class="bi bi-person-plus"></i> Nuevo Cliente
+        </button>
+    </div>
 
+    <!-- Tarjeta resumen -->
+    <div class="row mb-4">
+        <div class="col-md-4">
+            <div class="card shadow-lg border-0 text-center rounded-4">
+                <div class="card-body">
+                    <h6 class="text-muted">Total de Clientes</h6>
+                    <h2 id="totalClientes" class="fw-bold text-primary display-5">0</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tabla dentro de Card -->
+    <div class="card shadow-lg border-0 rounded-4">
+        <div class="card-body">
+
+            <table id="tblCliente"
+                   class="table table-hover align-middle"
+                   style="width:100%">
+                <thead class="table-light">
+                    <tr>
+                        <th>Id</th>
+                        <th>Nombre</th>
+                        <th>Correo</th>
+                        <th>Telefono</th>
+                        <th class="text-center">Acciones</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+
+        </div>
+    </div>
+
+</div>
 
 @await Html.PartialAsync("_Editar")
 @await Html.PartialAsync("_Crear")

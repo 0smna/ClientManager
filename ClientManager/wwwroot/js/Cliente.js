@@ -23,19 +23,32 @@
                         data: null,
                         title: 'Acciones',
                         orderable: false,
+                        className: 'text-center',
                         render: function (data, type, row) {
                             return `
-                                <button class="btn btn-sm btn-primary btn-editar" data-id="${row.id}">
-                                    <i class="bi bi-pencil"></i> Editar
+                                <button class="btn btn-sm btn-outline-primary me-2 btn-editar"
+                                        data-id="${row.id}"
+                                        title="Editar">
+                                   <i class="bi bi-pencil-square"></i>
                                 </button>
-                                <button class="btn btn-sm btn-danger btn-eliminar" data-id="${row.id}">
-                                    <i class="bi bi-trash"></i> Eliminar
+
+                                <button class="btn btn-sm btn-outline-danger btn-eliminar"
+                                        data-id="${row.id}"
+                                        title="Eliminar">
+                                   <i class="bi bi-trash"></i>
                                 </button>`;
                         }
                     }
+
                 ],
                 language: {
                     url: 'https://cdn.datatables.net/plug-ins/1.13.6/i18n/es-ES.json'
+                },
+
+                drawCallback: function () {
+                    var api = this.api();
+                    var total = api.rows().count();
+                    document.getElementById("totalClientes").innerText = total;
                 }
             });
         },
