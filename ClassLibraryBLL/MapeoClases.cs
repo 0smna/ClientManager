@@ -1,7 +1,6 @@
 ﻿using AutoMapper;
-using System;
-using System.Collections.Generic;
-using System.Text;
+using ClientManagerDAL.Entities;
+using ClientManagerBLL.Dtos;
 
 namespace ClientManagerBLL
 {
@@ -9,7 +8,19 @@ namespace ClientManagerBLL
     {
         public MapeoClases()
         {
-            CreateMap<ClientManagerDAL.Entities.Cliente, ClientManagerBLL.Dtos.ClienteDto>().ReverseMap();
+            // 🔵 CLIENTES
+            CreateMap<Cliente, ClienteDto>().ReverseMap();
+
+            // 🔵 VEHICULOS
+            CreateMap<Vehiculo, VehiculoDto>().ReverseMap();
+
+            // 🔵 CITAS
+            CreateMap<CitaLavado, CitaLavadoDto>()
+                .ForMember(dest => dest.Estado,
+                           opt => opt.MapFrom(src => (int)src.Estado))
+                .ReverseMap()
+                .ForMember(dest => dest.Estado,
+                           opt => opt.MapFrom(src => (EstadoCita)src.Estado));
         }
     }
 }

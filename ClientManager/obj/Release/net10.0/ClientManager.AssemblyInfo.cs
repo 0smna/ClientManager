@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ClientManager")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+daba40b500fd55facad35ec20898d74753bf55f3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a174f7d5cb34a68ac76cce449425140488bae8eb")]
 [assembly: System.Reflection.AssemblyProductAttribute("ClientManager")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ClientManager")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -11,7 +11,9 @@ namespace ClientManagerDAL.Repositorios.Clientes
         Task<bool> AgregarAsync(Cliente cliente);
         Task<bool> ActualizarAsync(Cliente cliente);
         Task<bool> EliminarAsync(int id);
-      
-
+        Task<bool> ExisteClienteAsync(int id);
+        // 🔴 VALIDACIONES DE NEGOCIO
+        Task<bool> ExisteIdentificacionAsync(string identificacion);
+        Task<bool> ExisteIdentificacionEnOtroClienteAsync(int id, string identificacion);
     }
 }

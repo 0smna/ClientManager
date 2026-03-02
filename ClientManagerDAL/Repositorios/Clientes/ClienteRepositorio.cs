@@ -9,9 +9,9 @@ namespace ClientManagerDAL.Repositorios.Clientes
     {
         private static List<Cliente> clientes = new List<Cliente>
         {
-            new Cliente { Id = 1, Nombre = "Juan Perez", Correo = "juan.perez@email.com", Telefono = "8888-1111" },
-            new Cliente { Id = 2, Nombre = "Maria Gonzalez", Correo = "maria.gonzalez@email.com", Telefono = "8888-2222" },
-            new Cliente { Id = 3, Nombre = "Carlos Ramirez", Correo = "carlos.ramirez@email.com", Telefono = "8888-3333" }
+            new Cliente { Id = 1, Nombre = "Juan Perez", Correo = "juan.perez@email.com", Telefono = "8888-1111", FechaRegistro = DateTime.Now },
+            new Cliente { Id = 2, Nombre = "Maria Gonzalez", Correo = "maria.gonzalez@email.com", Telefono = "8888-2222", FechaRegistro = DateTime.Now },
+            new Cliente { Id = 3, Nombre = "Carlos Ramirez", Correo = "carlos.ramirez@email.com", Telefono = "8888-3333", FechaRegistro = DateTime.Now }
         };
 
         public async Task<List<Cliente>> ObtenerTodosAsync()
@@ -22,10 +22,28 @@ namespace ClientManagerDAL.Repositorios.Clientes
                 Nombre = c.Nombre,
                 Correo = c.Correo,
                 Telefono = c.Telefono,
-                FechaRegistro = c.FechaRegistro
+                FechaRegistro = c.FechaRegistro,
+                Identificacion = c.Identificacion,
+                FechaNacimiento = c.FechaNacimiento
             }).ToList();
 
             return await Task.FromResult(copia);
+        }
+
+        // 🔴 VALIDACIONES DE NEGOCIO (ADAPTADAS A LISTA EN MEMORIA)
+
+        public async Task<bool> ExisteIdentificacionAsync(string identificacion)
+        {
+            return await Task.FromResult(
+                clientes.Any(c => c.Identificacion == identificacion)
+            );
+        }
+
+        public async Task<bool> ExisteIdentificacionEnOtroClienteAsync(int id, string identificacion)
+        {
+            return await Task.FromResult(
+                clientes.Any(c => c.Id != id && c.Identificacion == identificacion)
+            );
         }
 
         public async Task<Cliente> ObtenerPorIdAsync(int id)
@@ -39,7 +57,9 @@ namespace ClientManagerDAL.Repositorios.Clientes
                 Nombre = c.Nombre,
                 Correo = c.Correo,
                 Telefono = c.Telefono,
-                FechaRegistro = c.FechaRegistro
+                FechaRegistro = c.FechaRegistro,
+                Identificacion = c.Identificacion,
+                FechaNacimiento = c.FechaNacimiento
             });
         }
 
@@ -53,7 +73,9 @@ namespace ClientManagerDAL.Repositorios.Clientes
                 Nombre = cliente.Nombre,
                 Correo = cliente.Correo,
                 Telefono = cliente.Telefono,
-                FechaRegistro = cliente.FechaRegistro
+                FechaRegistro = cliente.FechaRegistro,
+                Identificacion = cliente.Identificacion,
+                FechaNacimiento = cliente.FechaNacimiento
             });
 
             return await Task.FromResult(true);
@@ -62,12 +84,15 @@ namespace ClientManagerDAL.Repositorios.Clientes
         public async Task<bool> ActualizarAsync(Cliente cliente)
         {
             var index = clientes.FindIndex(c => c.Id == cliente.Id);
+
             if (index >= 0)
             {
                 clientes[index].Nombre = cliente.Nombre;
                 clientes[index].Correo = cliente.Correo;
                 clientes[index].Telefono = cliente.Telefono;
                 clientes[index].FechaRegistro = cliente.FechaRegistro;
+                clientes[index].Identificacion = cliente.Identificacion;
+                clientes[index].FechaNacimiento = cliente.FechaNacimiento;
             }
 
             return await Task.FromResult(true);
@@ -78,7 +103,11 @@ namespace ClientManagerDAL.Repositorios.Clientes
             var removed = clientes.RemoveAll(c => c.Id == id);
             return await Task.FromResult(removed > 0);
         }
-        
-
+        public async Task<bool> ExisteClienteAsync(int id)
+        {
+            return await Task.FromResult(
+                clientes.Any(c => c.Id == id)
+            );
+        }
     }
 }

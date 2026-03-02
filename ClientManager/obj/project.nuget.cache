@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "csORqHGTVso=",
+  "dgSpecHash": "f3yHNAHseSI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\allan\\source\\repos\\ClientManager\\ClientManager\\ClientManager.csproj",
+  "projectFilePath": "C:\\xampp\\htdocs\\ManejoCx\\ClientManager\\ClientManager.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\allan\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
-    "C:\\Users\\allan\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512"
+    "C:\\Users\\kenne\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "C:\\Users\\kenne\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512"
   ],
   "logs": []
 }

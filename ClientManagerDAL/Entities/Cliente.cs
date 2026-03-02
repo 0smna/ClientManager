@@ -9,6 +9,8 @@ namespace ClientManagerDAL.Entities
         public string Nombre { get; set; }
         public string Correo { get; set; }
         public string Telefono { get; set; }
+        public string Identificacion { get; set; }
+        public DateTime FechaNacimiento { get; set; }
 
         public DateTime FechaRegistro { get; set; } 
     }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "neG1+ulqISI=",
+  "dgSpecHash": "5KWk01gdJKE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\allan\\source\\repos\\ClientManager\\ClientManagerDAL\\ClientManagerDAL.csproj",
+  "projectFilePath": "C:\\xampp\\htdocs\\ManejoCx\\ClientManagerDAL\\ClientManagerDAL.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,0 +1,59 @@
+﻿@{
+    ViewData["Title"] = "Citas de Lavado";
+}
+
+<div class="container mt-4">
+    <h2>Gestión de Citas</h2>
+
+    <button class="btn btn-primary mb-3" onclick="abrirModal()">Nueva Cita</button>
+
+    <table id="tablaCitas" class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>Placa</th>
+                <th>Fecha</th>
+                <th>Estado</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+    </table>
+</div>
+
+<!-- MODAL -->
+<div class="modal fade" id="modalCita" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Registrar Cita</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+
+            <div class="modal-body">
+
+                <div class="mb-3">
+                    <label>ClienteId</label>
+                    <input type="number" id="ClienteId" class="form-control" />
+                </div>
+
+                <div class="mb-3">
+                    <label>Vehículo (Placa)</label>
+                    <select id="VehiculoId" class="form-select"></select>
+                </div>
+
+                <div class="mb-3">
+                    <label>Fecha</label>
+                    <input type="datetime-local" id="FechaCita" class="form-control" />
+                </div>
+
+            </div>
+
+            <div class="modal-footer">
+                <button class="btn btn-success" onclick="guardar()">Guardar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/js/Cita.js" asp-append-version="true"></script>
+}

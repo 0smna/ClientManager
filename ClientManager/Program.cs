@@ -1,25 +1,42 @@
 using AutoMapper;
 using ClientManagerBLL;
-using ClientManagerBLL.Dtos;
 using ClientManagerBLL.Servicios;
-using ClientManagerDAL.Entities;
+
 using ClientManagerDAL.Repositorios.Clientes;
+using ClientManagerDAL.Repositorios.Vehiculos;
+using ClientManagerDAL.Repositorios.Citas;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container
+// =====================================
+// MVC
+// =====================================
 builder.Services.AddControllersWithViews();
 
-// **DI: Repositorio y Servicio**
+// =====================================
+// REPOSITORIOS
+// =====================================
 builder.Services.AddScoped<IClienteRepositorio, ClienteRepositorio>();
-builder.Services.AddScoped<IClienteServicio, ClienteServicio>();
+builder.Services.AddScoped<IVehiculoRepositorio, VehiculoRepositorio>();
+builder.Services.AddScoped<ICitaRepositorio, CitaRepositorio>();
 
-// **DI: AutoMapper**
-builder.Services.AddAutoMapper(typeof(MapeoClases)); 
+// =====================================
+// SERVICIOS
+// =====================================
+builder.Services.AddScoped<IClienteServicio, ClienteServicio>();
+builder.Services.AddScoped<IVehiculoServicio, VehiculoServicio>();
+builder.Services.AddScoped<ICitaServicio, CitaServicio>();
+
+// =====================================
+// AUTOMAPPER
+// =====================================
+builder.Services.AddAutoMapper(typeof(MapeoClases));
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline
+// =====================================
+// PIPELINE
+// =====================================
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
@@ -29,7 +46,6 @@ if (!app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseRouting();
-
 app.UseAuthorization();
 
 app.MapControllerRoute(

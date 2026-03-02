@@ -2,6 +2,7 @@
 using ClientManagerBLL.Dtos;
 using ClientManagerDAL.Entities;
 using ClientManagerDAL.Repositorios.Clientes;
+using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
@@ -27,16 +28,15 @@ namespace ClientManagerBLL.Servicios
 
             return response;
         }
-       
 
         public async Task<CustomResponse<ClienteDto>> ObtenerClientePorIdAsync(int id)
         {
             var response = new CustomResponse<ClienteDto>();
 
-            if (id == 0)
+            if (id <= 0)
             {
                 response.esCorrecto = false;
-                response.mensaje = "El id del cliente no puede ser cero.";
+                response.mensaje = "El id del cliente no puede ser cero o negativo.";
                 response.codigoStatus = 400;
                 return response;
             }
@@ -67,6 +67,26 @@ namespace ClientManagerBLL.Servicios
                 return response;
             }
 
+            // 🔴 Validación: Identificación duplicada
+            var existe = await _repo.ExisteIdentificacionAsync(clienteDto.Identificacion);
+            if (existe)
+            {
+                response.esCorrecto = false;
+                response.mensaje = "No puede registrar un cliente con la misma identificación.";
+                response.codigoStatus = 400;
+                return response;
+            }
+
+            // 🔴 Validación: Edad mínima 18 años
+            var edad = CalcularEdad(clienteDto.FechaNacimiento);
+            if (edad < 18)
+            {
+                response.esCorrecto = false;
+                response.mensaje = "No puede registrar clientes menores de edad.";
+                response.codigoStatus = 400;
+                return response;
+            }
+
             var cliente = _mapper.Map<Cliente>(clienteDto);
             await _repo.AgregarAsync(cliente);
 
@@ -86,6 +106,38 @@ namespace ClientManagerBLL.Servicios
                 return response;
             }
 
+            var clienteExistente = await _repo.ObtenerPorIdAsync(clienteDto.Id);
+
+            if (clienteExistente is null)
+            {
+                response.esCorrecto = false;
+                response.mensaje = "El cliente no existe.";
+                response.codigoStatus = 404;
+                return response;
+            }
+
+            // 🔴 Validación: Identificación duplicada en otro cliente
+            var existe = await _repo
+                .ExisteIdentificacionEnOtroClienteAsync(clienteDto.Id, clienteDto.Identificacion);
+
+            if (existe)
+            {
+                response.esCorrecto = false;
+                response.mensaje = "Ya existe otro cliente con esa identificación.";
+                response.codigoStatus = 400;
+                return response;
+            }
+
+            // 🔴 Validación: Edad mínima
+            var edad = CalcularEdad(clienteDto.FechaNacimiento);
+            if (edad < 18)
+            {
+                response.esCorrecto = false;
+                response.mensaje = "No puede registrar clientes menores de edad.";
+                response.codigoStatus = 400;
+                return response;
+            }
+
             var cliente = _mapper.Map<Cliente>(clienteDto);
             await _repo.ActualizarAsync(cliente);
 
@@ -97,16 +149,39 @@ namespace ClientManagerBLL.Servicios
         {
             var response = new CustomResponse<ClienteDto>();
 
-            if (id == 0)
+            if (id <= 0)
             {
                 response.esCorrecto = false;
-                response.mensaje = "El id del cliente no puede ser cero.";
+                response.mensaje = "El id del cliente no puede ser cero o negativo.";
                 response.codigoStatus = 400;
                 return response;
             }
 
+            var cliente = await _repo.ObtenerPorIdAsync(id);
+
+            if (cliente is null)
+            {
+                response.esCorrecto = false;
+                response.mensaje = "El cliente no existe.";
+                response.codigoStatus = 404;
+                return response;
+            }
+
             await _repo.EliminarAsync(id);
+
+            response.mensaje = "Cliente eliminado correctamente.";
             return response;
+        }
+
+        private int CalcularEdad(DateTime fechaNacimiento)
+        {
+            var hoy = DateTime.Today;
+            var edad = hoy.Year - fechaNacimiento.Year;
+
+            if (fechaNacimiento.Date > hoy.AddYears(-edad))
+                edad--;
+
+            return edad;
         }
     }
 }

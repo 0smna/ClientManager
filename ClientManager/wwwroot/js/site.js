@@ -1,4 +1,4 @@
-﻿// Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
-// for details on configuring this project to bundle and minify static web assets.
-
-// Write your JavaScript code.
+﻿.hero - gradient {
+    background: linear - gradient(135deg, #111 0 %, #1e3c72 100 %);
+}
+<div class="hero-gradient text-white text-center py-5">
