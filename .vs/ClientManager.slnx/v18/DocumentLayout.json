@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\xampp\\htdocs\\ManejoCx\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EFF55077-32F5-B727-35AD-1F83AC1661A3}|ClientManager\\ClientManager.csproj|c:\\xampp\\htdocs\\manejocx\\clientmanager\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{EFF55077-32F5-B727-35AD-1F83AC1661A3}|ClientManager\\ClientManager.csproj|solutionrelative:clientmanager\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{EFF55077-32F5-B727-35AD-1F83AC1661A3}|ClientManager\\ClientManager.csproj|c:\\xampp\\htdocs\\manejocx\\clientmanager\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{EFF55077-32F5-B727-35AD-1F83AC1661A3}|ClientManager\\ClientManager.csproj|solutionrelative:clientmanager\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EFF55077-32F5-B727-35AD-1F83AC1661A3}|ClientManager\\ClientManager.csproj|c:\\xampp\\htdocs\\manejocx\\clientmanager\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{EFF55077-32F5-B727-35AD-1F83AC1661A3}|ClientManager\\ClientManager.csproj|solutionrelative:clientmanager\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFF55077-32F5-B727-35AD-1F83AC1661A3}|ClientManager\\ClientManager.csproj|c:\\xampp\\htdocs\\manejocx\\clientmanager\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFF55077-32F5-B727-35AD-1F83AC1661A3}|ClientManager\\ClientManager.csproj|solutionrelative:clientmanager\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFF55077-32F5-B727-35AD-1F83AC1661A3}|ClientManager\\ClientManager.csproj|c:\\xampp\\htdocs\\manejocx\\clientmanager\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{EFF55077-32F5-B727-35AD-1F83AC1661A3}|ClientManager\\ClientManager.csproj|solutionrelative:clientmanager\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EFF55077-32F5-B727-35AD-1F83AC1661A3}|ClientManager\\ClientManager.csproj|c:\\xampp\\htdocs\\manejocx\\clientmanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -63,6 +71,36 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\ManejoCx\\ClientManager\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "ClientManager\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\xampp\\htdocs\\ManejoCx\\ClientManager\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "ClientManager\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-03-02T03:04:03.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\ManejoCx\\ClientManager\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ClientManager\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\xampp\\htdocs\\ManejoCx\\ClientManager\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ClientManager\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-02T03:01:49.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "site.js",
               "DocumentMoniker": "C:\\xampp\\htdocs\\ManejoCx\\ClientManager\\wwwroot\\js\\site.js",
               "RelativeDocumentMoniker": "ClientManager\\wwwroot\\js\\site.js",
@@ -81,18 +119,14 @@
               "RelativeDocumentMoniker": "ClientManager\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\xampp\\htdocs\\ManejoCx\\ClientManager\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "ClientManager\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAABcAAAAAAAAAAAAYwFAAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAQwJwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-03-02T02:58:21.056Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "VehiculoServicio.cs",
               "DocumentMoniker": "C:\\xampp\\htdocs\\ManejoCx\\ClassLibraryBLL\\Servicios\\VehiculoServicio.cs",
               "RelativeDocumentMoniker": "ClassLibraryBLL\\Servicios\\VehiculoServicio.cs",
@@ -105,7 +139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "ClienteRepositorio.cs",
               "DocumentMoniker": "C:\\xampp\\htdocs\\ManejoCx\\ClientManagerDAL\\Repositorios\\Clientes\\ClienteRepositorio.cs",
               "RelativeDocumentMoniker": "ClientManagerDAL\\Repositorios\\Clientes\\ClienteRepositorio.cs",
@@ -118,7 +152,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "IClienteRepositorio.cs",
               "DocumentMoniker": "C:\\xampp\\htdocs\\ManejoCx\\ClientManagerDAL\\Repositorios\\Clientes\\IClienteRepositorio.cs",
               "RelativeDocumentMoniker": "ClientManagerDAL\\Repositorios\\Clientes\\IClienteRepositorio.cs",
@@ -131,7 +165,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "Cita.js",
               "DocumentMoniker": "C:\\xampp\\htdocs\\ManejoCx\\ClientManager\\wwwroot\\js\\Cita.js",
               "RelativeDocumentMoniker": "ClientManager\\wwwroot\\js\\Cita.js",
@@ -144,7 +178,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "CitaController.cs",
               "DocumentMoniker": "C:\\xampp\\htdocs\\ManejoCx\\ClientManager\\Controllers\\CitaController.cs",
               "RelativeDocumentMoniker": "ClientManager\\Controllers\\CitaController.cs",
@@ -157,7 +191,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\xampp\\htdocs\\ManejoCx\\ClientManager\\Program.cs",
               "RelativeDocumentMoniker": "ClientManager\\Program.cs",
@@ -170,7 +204,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "CitaLavado.cs",
               "DocumentMoniker": "C:\\xampp\\htdocs\\ManejoCx\\ClientManagerDAL\\Entities\\CitaLavado.cs",
               "RelativeDocumentMoniker": "ClientManagerDAL\\Entities\\CitaLavado.cs",
@@ -183,7 +217,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "CitaServicio.cs",
               "DocumentMoniker": "C:\\xampp\\htdocs\\ManejoCx\\ClassLibraryBLL\\Servicios\\CitaServicio.cs",
               "RelativeDocumentMoniker": "ClassLibraryBLL\\Servicios\\CitaServicio.cs",
@@ -196,7 +230,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\xampp\\htdocs\\ManejoCx\\ClientManager\\Views\\Cita\\Index.cshtml",
               "RelativeDocumentMoniker": "ClientManager\\Views\\Cita\\Index.cshtml",
@@ -209,7 +243,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "CitaLavadoDto.cs",
               "DocumentMoniker": "C:\\xampp\\htdocs\\ManejoCx\\ClassLibraryBLL\\Dtos\\CitaLavadoDto.cs",
               "RelativeDocumentMoniker": "ClassLibraryBLL\\Dtos\\CitaLavadoDto.cs",

@@ -24,3 +24,33 @@ body {
 .table thead {
     background-color: #f1f5f9;
 }
+.hero-premium {
+    background: linear-gradient(135deg, #000000, #1c1c1c);
+}
+
+.kpi-card {
+    background: #111;
+    color: #d4af37;
+    padding: 30px;
+    border-radius: 12px;
+    border: 1px solid #d4af37;
+    transition: 0.3s ease;
+}
+
+    .kpi-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0px 0px 20px rgba(212,175,55,0.5);
+    }
+
+.premium-card {
+    background: #1c1c1c;
+    color: white;
+    border: 1px solid #d4af37;
+    border-radius: 12px;
+    transition: 0.3s ease;
+}
+
+    .premium-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0px 0px 20px rgba(212,175,55,0.4);
+    }

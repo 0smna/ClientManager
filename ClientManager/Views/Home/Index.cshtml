@@ -4,12 +4,40 @@
 
 <div class="container-fluid p-0">
 
-    <!-- HERO SECTION -->
-    <div class="bg-dark text-white text-center py-5">
-        <h1 class="display-4 fw-bold">Sistema de Gestión Lavacar Premium</h1>
+    <!-- HERO SECTION PREMIUM -->
+    <div class="hero-premium text-white text-center py-5">
+        <h1 class="display-4 fw-bold">Lavacar Premium</h1>
         <p class="lead">
-            Control total de clientes, vehículos y citas para autos de lujo.
+            Gestión ejecutiva de clientes, vehículos y citas de autos de lujo.
         </p>
+    </div>
+
+    <!-- KPIs -->
+    <div class="container mt-4">
+        <div class="row g-4 text-center">
+
+            <div class="col-md-4">
+                <div class="kpi-card">
+                    <h2 id="totalClientes">0</h2>
+                    <p>Clientes Registrados</p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="kpi-card">
+                    <h2 id="totalVehiculos">0</h2>
+                    <p>Vehículos Registrados</p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="kpi-card">
+                    <h2 id="totalCitas">0</h2>
+                    <p>Citas Activas</p>
+                </div>
+            </div>
+
+        </div>
     </div>
 
     <!-- DASHBOARD CARDS -->
@@ -18,15 +46,15 @@
 
             <!-- CLIENTES -->
             <div class="col-md-4">
-                <div class="card shadow h-100 border-0">
+                <div class="card premium-card shadow h-100 border-0">
                     <div class="card-body text-center">
-                        <i class="bi bi-people-fill fs-1 text-primary"></i>
+                        <i class="bi bi-people-fill fs-1 text-warning"></i>
                         <h4 class="mt-3">Clientes</h4>
                         <p class="text-muted">
                             Gestión completa de clientes registrados.
                         </p>
                         <a asp-controller="Cliente" asp-action="Index"
-                           class="btn btn-primary w-100">
+                           class="btn btn-outline-warning w-100">
                             Ir a Clientes
                         </a>
                     </div>
@@ -35,15 +63,15 @@
 
             <!-- VEHÍCULOS -->
             <div class="col-md-4">
-                <div class="card shadow h-100 border-0">
+                <div class="card premium-card shadow h-100 border-0">
                     <div class="card-body text-center">
-                        <i class="bi bi-car-front-fill fs-1 text-success"></i>
+                        <i class="bi bi-car-front-fill fs-1 text-warning"></i>
                         <h4 class="mt-3">Vehículos</h4>
                         <p class="text-muted">
                             Administración de vehículos asociados a clientes.
                         </p>
                         <a asp-controller="Vehiculo" asp-action="Index"
-                           class="btn btn-success w-100">
+                           class="btn btn-outline-warning w-100">
                             Ir a Vehículos
                         </a>
                     </div>
@@ -52,15 +80,15 @@
 
             <!-- CITAS -->
             <div class="col-md-4">
-                <div class="card shadow h-100 border-0">
+                <div class="card premium-card shadow h-100 border-0">
                     <div class="card-body text-center">
-                        <i class="bi bi-calendar-check-fill fs-1 text-danger"></i>
+                        <i class="bi bi-calendar-check-fill fs-1 text-warning"></i>
                         <h4 class="mt-3">Citas</h4>
                         <p class="text-muted">
-                            Control de citas de lavado y estado del servicio.
+                            Control de citas y estado del servicio.
                         </p>
                         <a asp-controller="Cita" asp-action="Index"
-                           class="btn btn-danger w-100">
+                           class="btn btn-outline-warning w-100">
                             Ir a Citas
                         </a>
                     </div>
@@ -70,12 +98,60 @@
         </div>
     </div>
 
-    <!-- FOOTER INFO -->
-    <div class="container mt-5 mb-5 text-center text-muted">
-        <hr />
-        <p>
-            Lavacar Premium © 2026 | Sistema desarrollado bajo arquitectura por capas.
-        </p>
+    <!-- GRÁFICO -->
+    <div class="container mt-5 mb-5">
+        <div class="card shadow-lg p-4">
+            <h4 class="text-center mb-4">Estado de Citas</h4>
+            <canvas id="graficoCitas"></canvas>
+        </div>
     </div>
 
 </div>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script>
+        $(document).ready(function () {
+
+            // CLIENTES
+            $.get("/Cliente/ObtenerClientes", function (res) {
+                $("#totalClientes").text(res.data.length);
+            });
+
+            // VEHICULOS
+            $.get("/Vehiculo/ObtenerVehiculos", function (res) {
+                $("#totalVehiculos").text(res.data.length);
+            });
+
+            // CITAS + GRAFICO
+            $.get("/Cita/ObtenerCitas", function (res) {
+
+                $("#totalCitas").text(res.data.length);
+
+                const ingresadas = res.data.filter(x => x.estado == 0).length;
+                const canceladas = res.data.filter(x => x.estado == 1).length;
+                const concluidas = res.data.filter(x => x.estado == 2).length;
+
+                const ctx = document.getElementById('graficoCitas');
+
+                new Chart(ctx, {
+                    type: 'doughnut',
+                    data: {
+                        labels: ['Ingresadas', 'Canceladas', 'Concluidas'],
+                        datasets: [{
+                            data: [ingresadas, canceladas, concluidas],
+                            backgroundColor: [
+                                '#d4af37',
+                                '#dc3545',
+                                '#198754'
+                            ]
+                        }]
+                    }
+                });
+
+            });
+
+        });
+    </script>
+}

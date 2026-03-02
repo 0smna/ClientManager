@@ -357,7 +357,6 @@ C:\xampp\htdocs\ManejoCx\ClientManager\obj\Debug\net10.0\scopedcss\Views\Shared\
 C:\xampp\htdocs\ManejoCx\ClientManager\obj\Debug\net10.0\scopedcss\bundle\ClientManager.styles.css
 C:\xampp\htdocs\ManejoCx\ClientManager\obj\Debug\net10.0\scopedcss\projectbundle\ClientManager.bundle.scp.css
 C:\xampp\htdocs\ManejoCx\ClientManager\obj\Debug\net10.0\compressed\qs6bam8fay-{0}-b9sayid5wm-b9sayid5wm.gz
-C:\xampp\htdocs\ManejoCx\ClientManager\obj\Debug\net10.0\compressed\7ic3w4t7gx-{0}-mu64fqged4-mu64fqged4.gz
 C:\xampp\htdocs\ManejoCx\ClientManager\obj\Debug\net10.0\compressed\cczq74vb1p-{0}-61n19gt1b8-61n19gt1b8.gz
 C:\xampp\htdocs\ManejoCx\ClientManager\obj\Debug\net10.0\compressed\032fj03bbx-{0}-9symnhd1yr-9symnhd1yr.gz
 C:\xampp\htdocs\ManejoCx\ClientManager\obj\Debug\net10.0\compressed\rwi6jltzmd-{0}-t1cqhe9u97-t1cqhe9u97.gz
@@ -436,3 +435,4 @@ C:\xampp\htdocs\ManejoCx\ClientManager\obj\Debug\net10.0\ref\ClientManager.dll
 C:\xampp\htdocs\ManejoCx\ClientManager\obj\Debug\net10.0\compressed\ka173ki6n4-{0}-m3koeff6cf-m3koeff6cf.gz
 C:\xampp\htdocs\ManejoCx\ClientManager\obj\Debug\net10.0\compressed\4bzpr0w2tl-{0}-9zl6acg8zf-9zl6acg8zf.gz
 C:\xampp\htdocs\ManejoCx\ClientManager\obj\Debug\net10.0\compressed\ine3j4kdsb-{0}-87vglprbod-87vglprbod.gz
+C:\xampp\htdocs\ManejoCx\ClientManager\obj\Debug\net10.0\compressed\7ic3w4t7gx-{0}-b5o938ekuf-b5o938ekuf.gz
